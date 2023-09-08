@@ -7,3 +7,5 @@ function displaySum() {
 }
 
 document.getElementById('sumButton').addEventListener("click", displaySum);
+document.getElementById('multiplyButton').addEventListener("click", displaySum);
+document.getElementById('subButton').addEventListener("click", displaySum);
