@@ -1,9 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById('sumButton').addEventListener("click", displaySum);
-    document.getElementById('multiplyButton').addEventListener("click", displayMultiply);
-    document.getElementById('subtractButton').addEventListener("click", displaySubtract);
-});
-
 function displaySum() {
     let firstNum = Number(document.getElementById('firstNum').innerText);
     let secondNum = Number(document.getElementById('secondNum').innerText);
