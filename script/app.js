@@ -1,5 +1,6 @@
-
-
+document.getElementById("sumButton").addEventListener("click", displaySum);
+document.getElementById("multiplyButton").addEventListener("click", displayMultiply);
+document.getElementById("subtractButton").addEventListener("click", displaySubtract);
 
 function displaySum() {
     let firstNum = Number(document.getElementById('firstNum').textContent);
